@@ -13,8 +13,6 @@ describe('app from index', function() {
 
     before(function() {
       arg_cache = process.argv;
-      console.dir(arg_cache);
-      process.argv = ['node', 'index.js', 'world']; 
       process.argv[2] = 'world';
     });
 
