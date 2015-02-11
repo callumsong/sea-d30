@@ -27,7 +27,7 @@ describe('our http server', function() {
       .end(function(err, res) {
         expect(err).to.eql(null);
         expect(res).to.have.status(200);
-        expect(res.text).to.eql('wow, second route\nsuch http\n'); 
+        expect(res.text).to.eql('wow, second route\nsuch http\n');
         done();
       });
   });
