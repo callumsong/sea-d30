@@ -14,7 +14,7 @@ module.exports = function(app) {
   });
 
   app.post('/notes', function(req, res) {
-    var newNote = new Note(req.body); 
+    var newNote = new Note(req.body);
     newNote.save(function(err, note) {
       if (err) return res.status(500).send({'msg': 'could not save note'});
 
