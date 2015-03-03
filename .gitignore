@@ -3,3 +3,6 @@
 **/npm-debug.log
 **/db/
 **/data/
+**/bower_compoents
+**/build/
+**/test_bundle.js
