@@ -46,7 +46,7 @@ module.exports = function(grunt) {
     karma: {
       unit: {
         configFile: 'karma.conf.js'
-      }      
+      }
     }
   });
   grunt.registerTask('build', ['clean','browserify', 'copy']);
